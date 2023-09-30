@@ -1,8 +1,3 @@
-# LTSuggest
-Submit suggestions to a LibreTranslate server from Python
-
-### Source
-```
 # Written by ChatGPT-4
 
 import requests
@@ -24,4 +19,3 @@ def suggest_translation(url, q, s, source, target):
     response = requests.post(f"{url}suggest", json=payload)
 
     return response
-```
